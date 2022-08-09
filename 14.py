@@ -24,10 +24,10 @@ dic = {}
 for _ in range(999999, 99999, -1):
     func = recurs(_, count)
     dic[_]=func
-    if len(dic)>500:
+    if len(dic)>5000:
         max_val = max(dic.values())
         dic.clear() 
-        dic[_]=func
+        dic[_]=max_val
         print(dic)
     count = 0
 
