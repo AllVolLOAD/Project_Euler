@@ -1,5 +1,5 @@
 def recurs(x, count):
-    if count > 990:
+    if count > 990:                 #Ограничение для рекурсии 
         return count
     
     if x == 1:
